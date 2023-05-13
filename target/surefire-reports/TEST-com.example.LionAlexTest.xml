@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.example.LionAlexTest" time="0.057" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.example.LionAlexTest" time="0.029" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.example.LionAlexTest" name="checkGetPlaceLiving" time="0.054"/>
-  <testcase classname="com.example.LionAlexTest" name="checkGetKittens" time="0.001"/>
-  <testcase classname="com.example.LionAlexTest" name="checkGetFriends" time="0.002"/>
+  <testcase classname="com.example.LionAlexTest" name="checkGetPlaceLiving" time="0.028"/>
+  <testcase classname="com.example.LionAlexTest" name="checkGetKittens" time="0"/>
+  <testcase classname="com.example.LionAlexTest" name="checkGetFriends" time="0.001"/>
 </testsuite>

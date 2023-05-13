@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.FelineMockTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.049 sec <<< FAILURE!
-checkGetFamily(com.example.FelineMockTest)  Time elapsed: 0.029 sec  <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE!
+checkGetFamily(com.example.FelineMockTest)  Time elapsed: 0.012 sec  <<< ERROR!
 org.mockito.exceptions.misusing.WrongTypeOfReturnValue: 
 String cannot be returned by eatMeat()
 eatMeat() should return List
@@ -54,7 +54,7 @@ Due to the nature of the syntax above problem might occur because:
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-checkEatMeat(com.example.FelineMockTest)  Time elapsed: 0.004 sec  <<< ERROR!
+checkEatMeat(com.example.FelineMockTest)  Time elapsed: 0.002 sec  <<< ERROR!
 org.mockito.exceptions.misusing.MissingMethodInvocationException: 
 when() requires an argument which has to be 'a method call on a mock'.
 For example:
@@ -106,7 +106,7 @@ Also, this error might show up because:
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-checkGetKittensWithParameter(com.example.FelineMockTest)  Time elapsed: 0.006 sec  <<< ERROR!
+checkGetKittensWithParameter(com.example.FelineMockTest)  Time elapsed: 0.001 sec  <<< ERROR!
 org.mockito.exceptions.misusing.MissingMethodInvocationException: 
 when() requires an argument which has to be 'a method call on a mock'.
 For example:
@@ -158,7 +158,7 @@ Also, this error might show up because:
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-checkGetFood(com.example.FelineMockTest)  Time elapsed: 0.001 sec  <<< ERROR!
+checkGetFood(com.example.FelineMockTest)  Time elapsed: 0.002 sec  <<< ERROR!
 org.mockito.exceptions.misusing.MissingMethodInvocationException: 
 when() requires an argument which has to be 'a method call on a mock'.
 For example:
@@ -210,7 +210,7 @@ Also, this error might show up because:
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-checkGetKittens(com.example.FelineMockTest)  Time elapsed: 0.004 sec  <<< ERROR!
+checkGetKittens(com.example.FelineMockTest)  Time elapsed: 0.001 sec  <<< ERROR!
 org.mockito.exceptions.misusing.MissingMethodInvocationException: 
 when() requires an argument which has to be 'a method call on a mock'.
 For example:

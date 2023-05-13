@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.example.FelineMockTest" time="0.044" errors="5" skipped="0">
+<testsuite tests="5" failures="0" name="com.example.FelineMockTest" time="0.018" errors="5" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.example.FelineMockTest" name="checkGetFamily" time="0.029">
+  <testcase classname="com.example.FelineMockTest" name="checkGetFamily" time="0.012">
     <error message="
 String cannot be returned by eatMeat()
 eatMeat() should return List
@@ -128,7 +128,7 @@ Due to the nature of the syntax above problem might occur because:
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="com.example.FelineMockTest" name="checkEatMeat" time="0.004">
+  <testcase classname="com.example.FelineMockTest" name="checkEatMeat" time="0.002">
     <error message="
 when() requires an argument which has to be &apos;a method call on a mock&apos;.
 For example:
@@ -191,7 +191,7 @@ Also, this error might show up because:
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="com.example.FelineMockTest" name="checkGetKittensWithParameter" time="0.006">
+  <testcase classname="com.example.FelineMockTest" name="checkGetKittensWithParameter" time="0.001">
     <error message="
 when() requires an argument which has to be &apos;a method call on a mock&apos;.
 For example:
@@ -254,7 +254,7 @@ Also, this error might show up because:
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="com.example.FelineMockTest" name="checkGetFood" time="0.001">
+  <testcase classname="com.example.FelineMockTest" name="checkGetFood" time="0.002">
     <error message="
 when() requires an argument which has to be &apos;a method call on a mock&apos;.
 For example:
@@ -317,7 +317,7 @@ Also, this error might show up because:
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
-  <testcase classname="com.example.FelineMockTest" name="checkGetKittens" time="0.004">
+  <testcase classname="com.example.FelineMockTest" name="checkGetKittens" time="0.001">
     <error message="
 when() requires an argument which has to be &apos;a method call on a mock&apos;.
 For example:
