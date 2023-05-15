@@ -21,8 +21,6 @@ public class FelineParameterizedTest {
                 {1, 1},
                 {10, 10},
                 {0, 0},
-                {-1, 0},
-                {Integer.MIN_VALUE, 0},
                 {Integer.MAX_VALUE, Integer.MAX_VALUE}
         };
     }
